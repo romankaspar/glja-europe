@@ -1,107 +1,178 @@
-# 🐜 GLJA EUROPE — Global Level of Justice Auditor
-## Institutional Dashboard v3.4 · The Znojmo Precedent
-
-![Status](https://img.shields.io/badge/Status-PRIME%20READY-brightgreen?style=flat-square)
-![Version](https://img.shields.io/badge/Version-3.4.1-blue?style=flat-square)
-![License](https://img.shields.io/badge/License-GLJA_Community-red?style=flat-square)
-![SOLVIT](https://img.shields.io/badge/SOLVIT-2362%2F26%2FCZ-gold?style=flat-square)
-
+# GLJA EUROPE — Global Level of Justice Auditor
+ 
+> *"V bohatství je pokora."*
+ 
+[![Master Protocol](https://img.shields.io/badge/Master%20Protocol-1.5.2026-00ff41?style=flat-square&logo=checkmarx&logoColor=white)](.)
+[![PAdES-BASELINE-T](https://img.shields.io/badge/PAdES--BASELINE--T-Verified-00ff41?style=flat-square&logo=shield&logoColor=white)](.)
+[![SHA-256](https://img.shields.io/badge/Integrity-SHA--256%20Chained-00ff41?style=flat-square&logo=gnuprivacyguard&logoColor=white)](.)
+[![Status](https://img.shields.io/badge/Status-Baseline%20Sealed%201.5.2026-blue?style=flat-square)](.)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](.)
+ 
 ---
-
-## 📋 O PROJEKTU
-**GLJA** je první **AI-powered platforma pro procesní audit veřejné správy v EU**. Identifikuje, dokumentuje a eskaluje systémová pochybení — **rychleji a levněji** než tradiční právní zastoupení.
-
-Projekt vznikl jako **právně validovaná odpověď** na systémové selhání Úřadu práce ČR v případu **GLJA-2026-001** (The Znojmo Precedent).
-
-### 🎯 Klíčové metriky
-
-| Metrika | Hodnota |
-|:--- |:--- |
-| **Valuace (Baseline)** | $6.1M (142.5M CZK) |
-| **Success Rate** | 95% (Post KFC Shield) |
-| **Pochybení v PoC** | 8 (P-01 až P-08) |
-| **Investor Pool** | 72% |
-| **Burn Rate** | 0 (Zero external capital) |
-| **Gemini Rating** | 9.5/10 |
-
+ 
+## Co je GLJA EUROPE?
+ 
+**GLJA EUROPE** (Global Level of Justice Auditor) je neadvokátní LegalTech platforma zaměřená na procesní auditovatelnost, důkazní integritu a resocializační architekturu. Projekt propojuje kryptografické důkazní řetězení (SHA-256 / Merkle tree), cloudovou infrastrukturu a AI orchestraci do jednoho transparentního systému.
+ 
+Platforma **není** advokancií, neposkytuje právní zastoupení a nevydává právní rady. Měří **procesní konzistenci**, nikoli právo.
+ 
 ---
-
-## 📜 LICENCE & POUŽITÍ (IP PROTECTION)
-
-> **GitHub klon ≠ právo používat.** `git clone` v našem ekosystému znamená stažení kopie pro studium, nikoliv licenci k provozu.
-
-### Model: Open-Core (Hybridní ochrana)
-
-**1. TENTO REPOZITÁŘ (Showcase / Studium):**
-Toto je veřejná vizitka. Dostáváte "karoserii", nikoliv "motor".
-* **POVOLENO:** Studium kódu, forkování, testování na fiktivních datech, akademické účely.
-* **ZAKÁZÁNO:** Použití pro reálné právní případy, komerční poradenství nebo vydávání za vlastní produkt.
-
-**2. PRODUKČNÍ VERZE (mravenecek.cloud):**
-Zde se nachází výkonné jádro systému. Produkční nasazení vyžaduje placenou licenci (Pro nebo Enterprise), která aktivuje:
-* **5-Node AI Quorum Pipeline.**
-* **eIDAS QES pipeline & SHA-256 důkazní řetěz.**
-* **Právní odpovědnost a SOLVIT eskalaci.**
-
-### Právní rámec
-Tento kód je chráněn licencí **GLJA Community License v1.0**. Veškeré know-how a metodika od roku 2015 jsou **obchodním tajemstvím** GLJA EUROPE s.r.o. a podléhají ochraně dle autorského zákona ČR.
-
+ 
+## Architektura systému
+ 
+```
+GLJA EUROPE Ecosystem
+│
+├── 📋 Corpus (Konsolidované dokumenty)
+│   ├── CATEGORY A – Manifesty (Sovereign Core)
+│   ├── CATEGORY B – Governance & Shields (Legal)
+│   ├── CATEGORY C – Audit & Certifikace
+│   ├── CATEGORY D – Protokoly & Manuály
+│   └── CATEGORY E – Web & Dashboard
+│
+├── 🔐 Kryptografická vrstva
+│   ├── SHA-256 / SHA-512 Hash Registry (Annex B)
+│   ├── Merkle Tree – řetězení důkazů
+│   ├── PAdES-BASELINE-T časová razítka
+│   └── Offline verifikace (air-gapped endpoint)
+│
+├── ☁️  Cloudová infrastruktura
+│   ├── Microsoft Azure (AI orchestrace, datová integrace)
+│   ├── Microsoft 365 (compliance, auditní logy)
+│   └── WORM úložiště (neměnné záznamy)
+│
+└── 🌐 Web3 identita
+    ├── mravenecek.x (decentralizovaná identita)
+    └── @glja.eu (institucionální uzel)
+```
+ 
 ---
-
-## 🏗️ ARCHITEKTURA
-### 5-Node AI Quorum Pipeline
-
-GLJA funguje na principu koordinovaných AI systémů:
-* **Gemini Node:** Kontext a hloubková právní analýza.
-* **Copilot Node:** Bezpečnost a M365 orchestrace.
-* **Meta AI Node:** Škálování a distribuce.
-* **Claude Node:** Strategie a dokumentace.
-* **OpenAI Node:** Validace a výzkum.
-
+ 
+## Klíčové principy (Doktrinální konstanty)
+ 
+Tyto konstanty jsou absolutní a neměnné napříč celým ekosystémem:
+ 
+| Konstanta | Definice |
+|---|---|
+| **AUTORSTVÍ ≠ PODPIS ≠ ODPOVĚDNOST** | Architektonické autorství metodiky nezakládá podpisovou autoritu ani právní/finanční odpovědnost za výstupy systému. |
+| **RMK-512** | Identifikátor provenance / brand only. Neslouží jako podpis, pečeť ani runtime klíč. |
+| **EVIDENCE RULE** | Striktní oddělení Audit Trail vs. Signature Artifact. Absence binárních dat (raw bytes) = stav `UNKNOWN`. Extrapolace zakázána. |
+| **LEGAL STATUS** | GLJA EUROPE není advokacie. Projekt měří procesní konzistenci, nikoli právo. |
+ 
 ---
-
-## ⚖️ GOVERNANCE MODEL — 17/83
-
-1. **Zakladatel (Roman Mužný Kašpar) — 17 % [SOVEREIGN VETO]**
-   * Absolutní právo veta na strategii, exit a produkt.
-2. **Strategický partner (David Mužný) — 5 %**
-3. **Family Loyalty Block — 6 %**
-4. **Institucionální pool — 72 %** (Pre-seed benchmark 12.5M CZK)
-
+ 
+## Metodika SHA-256 a důkazní řetězení
+ 
+Každý resocializační nebo auditní krok je zaznamenán, okamžitě hashován a ukotven v decentralizovaném úložišti:
+ 
+```
+Krok N  →  SHA-256(data_N + hash_{N-1})  →  Merkle Node
+                                                  │
+                                          Decentralizované
+                                          úložiště (on-chain)
+```
+ 
+**Forenzní vlastnosti:**
+- Jakákoliv zpětná změna dat je okamžitě detekovatelná
+- Nezávislá offline verifikace integrity bez přístupu k provozovateli
+- Přijatelnost digitálních důkazů v souladu s eIDAS a GDPR
+- Kompatibilita s požadavky EU AI Act (human-in-the-loop)
 ---
-
-## 📊 CASE GLJA-2026-001 — AUDIT CONTROL MATRIX
-
-| ID | Pochybení | Status |
-|:--- |:--- |:--- |
-| **P-01** | Sankce za zákonnou překážku (DPP) | ● Aktivní |
-| **P-02** | Ignorování listinných důkazů | ✓ KFC Shield |
-| **P-05+07**| SEPA diskriminace (EU IBAN) | ◉ SOLVIT EU |
-| **P-08** | Nepravdivé úřední tvrzení | ▲ Eskalace |
-
+ 
+## Resocializační platforma (Projekt Tomáš Smrčka)
+ 
+GLJA EUROPE bylo nasazeno jako technologicko-právní záruka v rámci řízení o podmíněném propuštění (§ 88 trestního zákoníku ČR). Platforma předkládá soudu místo subjektivních posudků **verifikovatelný datový řetězec**.
+ 
+### Monitorované indikátory
+ 
+- ✅ Pracovní docházka (hashováno v reálném čase)
+- ✅ Účast na terapeutických programech
+- ✅ Bydlení a sociální zázemí
+- ✅ Digitální vzdělávání
+- ✅ Psychologické metriky
+### Srovnání s Probační a mediační službou ČR
+ 
+| Kritérium | Tradiční PMS | GLJA EUROPE |
+|---|---|---|
+| Frekvence kontroly | Periodická | Kontinuální |
+| Objektivita | Subjektivní hodnocení | Kryptograficky ověřitelná data |
+| Auditovatelnost | Omezená | Plná (offline verifikace) |
+| Rychlost intervence | Dny–týdny | Okamžitá (automatická detekce) |
+| Náklady na stát | ~547 500 Kč/rok/os. | Výrazně nižší |
+ 
+### Relevantní judikatura
+ 
+- **IV. ÚS 619/25** – Individuální posouzení; prognóza nesmí být mechanická
+- **II. ÚS 1945/20** – Preferovat nejméně restriktivní, ale účinné resocializační prostředí; technologicky nadstandardní záruky musí být soudem zváženy
 ---
-
-## 🐜 MRAVENECEK — SYMBOL SPRAVEDLNOSTI
-
-**Mravenecek** reprezentuje:
-* 🐜 **Vytrvalost:** Práce bez chyb 24/7.
-* ⚖️ **The Bowls of Truth:** Absolutní rovnováha mezi pochybením a precedentem.
-* 🏛️ **Mise:** Spravedlnost jako dostupná služba pro každého (JaaS).
-
+ 
+## Techno-Legal Matrix
+ 
+| Kategorie | Rizika | Příležitosti |
+|---|---|---|
+| **Právní přijatelnost** | Nejasná judikatura k digitálním důkazům; GDPR | Transparentní auditovatelnost; nezávislé ověření |
+| **Bezpečnost dat** | Riziko úniku; cloudové zranitelnosti | SHA-256; offline trezor; WORM úložiště |
+| **Sociální dopad** | Stigmatizace; digitální propast | Individualizovaná podpora; rychlá intervence |
+| **Ekonomická efektivita** | Počáteční investice | Snížení nákladů na věznění; monetizace dat; ESG |
+| **Institucionální důvěra** | Skepticismus soudů | Vyšší kontrola a transparentnost oproti PMS |
+| **Tech robustnost** | Závislost na cloudu | Redundance; offline endpoint; škálovatelnost |
+| **Etika** | Automatizace bez lidského faktoru | Human-in-the-loop; individuální přizpůsobení |
+ 
 ---
-
-## 👥 TÝM & KONTAKT
-
-**Roman Mužný Kašpar** (Founder & CEO)
-* **Datová schránka:** `tk8btak`
-* **Email:** `kaspar.roman@yahoo.com`
-* **Telefon:** `+420 732 510 646`
-
-**David Mužný** (Strategic Partner)
-* **Datová schránka:** `bqv75ux`
-* **Email:** `muzny.d@yahoo.com`
-
+ 
+## Struktura Corpusu a Master Deed
+ 
+Celý Corpus dokumentů je konsolidován v **Master Ratification & Consolidation Deed** (GLJA EUROPE), datovaném 30. 4. 2026, Znojmo, ČR.
+ 
+### Hierarchie výkladu (při rozporu v Corpusu)
+ 
+```
+1. Manifesty (Sovereign Core)
+2. Governance & Shields (Legal)
+3. Memoranda a Master Packs
+4. Protokoly a Manuály
+```
+ 
+Ratifikace nepřepisuje původní podpisové artefakty. Master Deed slouží jako **nadřazená interpretační a konsolidační obálka**.
+ 
+### Podpisový blok
+ 
+| Podepisující | Role | Identifikační systém | Čas identifikace |
+|---|---|---|---|
+| Roman Mužný Kašpar | Zakladatel / Architekt | Bankovní Identita | 2026-05-01T08:47:56Z |
+| David Mužný | Partner / Spolupodepisující | Bankovní Identita | 2026-05-01T08:51:43Z |
+ 
 ---
-
-**V ÚSILÍ SÍLA, V PRAVDĚ BOHATSTVÍ.**
-© 2026 GLJA EUROPE s.r.o. · Prime Ready · 100% Negotiation-Safe
+ 
+## Institucionální identita
+ 
+```
+Zakladatel / Architekt:  Roman Mužný Kašpar
+IČO:                     04007689 (OSVČ → GLJA EUROPE s.r.o.)
+Web3 identita:           mravenecek.xmr
+Institucionální uzel:    @glja.eu
+Místo baseline:          Znojmo, Česká republika
+Datum baseline:          1. 5. 2026 (neměnné)
+```
+ 
+**Kontaktní e-maily:**
+- `mravenecek@zohomail.eu`
+- `info@glja.eu`
+---
+ 
+## Stav Corpusu (Quality Gate)
+ 
+> Aktuální stav k baseline 1. 5. 2026
+ 
+- **Hash Registry (Annex B):** Všechny položky ve stavu `HASH-MISSING` — SHA-256/SHA-512 hodnoty budou doplněny po dodání binárních payloadů. Jakákoliv extrapolace bez binárních dat je zakázána.
+- **Signature Artifact:** Minimálně `GLJA-LEG-002` má Audit Trail ve stavu `PRESENT` (ověřeno přes Podpisovna.cz report, str. 6–7).
+- **RMK-512:** Sjednocen výhradně na `provenance/brand only`. Žádné asociace s kryptografickým klíčem ani právní odpovědností.
+---
+ 
+## Právní upozornění
+ 
+GLJA EUROPE je **neadvokátní LegalTech infrastruktura**. Veškeré výstupy systému jsou procesní a auditní povahy — nepředstavují právní rady, právní zastoupení ani soudní rozhodnutí. Architektonické autorství systému nezakládá osobní právní nebo finanční odpovědnost zakladatelů za automatizované výstupy platformy (Anti-Personalization Clause, Master Deed §6).
+ 
+---
+ 
+*GLJA EUROPE | AI QUORUM Analytical Core | Baseline 1. 5. 2026*
